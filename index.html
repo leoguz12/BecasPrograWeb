@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AF 7: - Opciones de Becas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fa-solid fa-graduation-cap"></i> Mis opciones de becas universitarias</h1>
+        <p><i class="fa-solid fa-user-graduate"></i> Alumno: Edgar Leonardo Guzmán Ibarra | Matrícula: 2148230</p>
+    </header>
+
+    <main>
+        <div id="info-alert" class="alert" role="alert">
+            <div class="alert-content">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <span><strong>Aviso importante:</strong> Selecciona una tarjeta para ver los detalles de la beca y acceder al enlace oficial de su convocatoria.</span>
+            </div>
+            <button id="close-alert" title="Cerrar alerta"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div id="scholarship-container"></div>
+
+        <div id="details-section" class="hidden">
+            <img id="details-img" src="" alt="Logo Beca">
+            <div id="details-content">
+                <h2 id="details-title"></h2>
+                <p id="details-desc"></p>
+                <a id="details-link" href="#" target="_blank" rel="noopener noreferrer" class="btn-link">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Visitar sitio oficial de la beca
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Enlaces de consulta rápida:</p>
+        <div class="footer-links">
+            <a href="https://www.uanl.mx/tramites/becas/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-building-columns"></i> Portal de Becas UANL
+            </a>
+            <a href="https://www.fime.uanl.mx/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-gears"></i> Sitio Oficial FIME
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
